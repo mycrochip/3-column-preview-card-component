@@ -131,6 +131,14 @@ body {
     margin-top: 2rem;
 }
 
+.card__btn:hover,
+.card__btn:focus {
+    cursor: pointer;
+    color: var(--clr-bg-btn);
+    background-color: none;
+    border: 2px solid var(--clr-bg-btn);
+}
+
 
 .attribution {
     font-size: 11px;
