@@ -126,6 +126,7 @@ body {
     color: inherit;
     background-color: var(--clr-bg-btn);
     border: none;
+    border: 2px solid var(--clr-bg-btn);
     padding: 1rem 1.5rem;
     border-radius: 2rem;
     margin-top: 2rem;
@@ -135,8 +136,7 @@ body {
 .card__btn:focus {
     cursor: pointer;
     color: var(--clr-bg-btn);
-    background-color: none;
-    border: 2px solid var(--clr-bg-btn);
+    background-color: inherit;
 }
 
 
